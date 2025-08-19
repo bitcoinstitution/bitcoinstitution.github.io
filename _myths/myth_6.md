@@ -1,6 +1,6 @@
 ---
 title: "Bitcoin network can go extinct"
-image: "images/myth/myth-6.svg"
+image: "images/myth/myth-6.png"
 date: 2018-12-28T15:14:39+10:00
 weight: 6
 ---

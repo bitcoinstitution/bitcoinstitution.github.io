@@ -1,6 +1,6 @@
 ---
 title: "Bitcoin is haram & bad for society"
-image: "images/myth/myth-2.svg"
+image: "images/myth/myth-2.png"
 date: 2018-12-28T15:14:39+10:00
 weight: 2
 ---

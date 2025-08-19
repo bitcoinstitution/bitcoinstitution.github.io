@@ -1,6 +1,6 @@
 ---
 title: "Bitcoin treasury is only for institution"
-image: "images/myth/myth-4.svg"
+image: "images/myth/myth-4.png"
 date: 2018-12-28T15:14:39+10:00
 weight: 4
 ---

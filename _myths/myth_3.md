@@ -1,6 +1,6 @@
 ---
 title: "Bitcoin will make bankers obsolete"
-image: "images/myth/myth-3.svg"
+image: "images/myth/myth-3.png"
 date: 2018-12-28T15:14:39+10:00
 weight: 3
 ---
