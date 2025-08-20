@@ -10,4 +10,4 @@ show_call_box: false
 
 # Multiply Your Profits, Like a Smart Leader.
 
-We help smart leaders outperform competitors by accumulating bitcoin. This multiplies profits, shields your company from upcoming crises, and strengthens its culture — all through one smart strategic move.
+We help smart leaders outperform competitors by accumulating bitcoin. This multiplies profits, shields your company from upcoming crises, and strengthens its culture — all through one smart strategic move. Agree bitcoin's growth is unstoppable?
