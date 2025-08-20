@@ -1,5 +1,5 @@
 ---
-title: One
+title: Public Training & Certification
 layout: individual-treasury
 description: You can start small by doing bitcoin treasury on your own wealth, before company’s wealth. Join our public training to experience bitcoin treasury, taught by one of the best bitcoin experts in the country.
 intro_image: "images/illustrations/individual-treasury.png"
