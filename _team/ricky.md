@@ -3,7 +3,7 @@ title: "Ricky Saif"
 date: 2018-11-19T10:47:58+10:00
 image: "images/team/ricky.svg"
 quote: "“Bitcoin is inevitable. Even if it fails, there’ll be a new bitcoin who has all of its strengths.”"
-linkedinurl: "https://www.linkedin.com/"
+linkedinurl: "https://linkedin.com/in/rickysaif"
 promoted: true
 trainer: true
 weight: 1

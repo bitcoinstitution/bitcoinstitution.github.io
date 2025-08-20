@@ -3,7 +3,7 @@ title: "Banitama"
 date: 2018-11-19T10:47:58+10:00
 image: "images/team/banitama.svg"
 quote: "“Bitcoin: Make Savings Great Again”"
-linkedinurl: "https://www.linkedin.com/"
+linkedinurl: "https://linkedin.com/in/banitama"
 promoted: true
 weight: 3
 ---
