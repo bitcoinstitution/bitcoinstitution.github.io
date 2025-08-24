@@ -8,7 +8,7 @@
       "url": "/contact"
     },
     "image": {
-      "url": "images/features/company_treasury.svg"
+      "url": "images/features/company_treasury.png"
     }
   },
   {
@@ -20,7 +20,7 @@
       "url": "/individual-treasury"
     },
     "image": {
-      "url": "images/features/individual_treasury.svg"
+      "url": "images/features/individual_treasury.png"
     }
   }
 ]
