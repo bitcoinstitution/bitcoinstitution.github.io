@@ -1,6 +1,6 @@
 ---
 title: "Treasury Policy Design"
-image: "images/features/policy_design.svg"
+image: "images/features/policy_design.png"
 date: 2018-11-18T12:33:46+10:00
 weight: 1
 ---

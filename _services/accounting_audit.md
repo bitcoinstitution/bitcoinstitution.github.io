@@ -1,6 +1,6 @@
 ---
 title: "Accounting & Audit Support"
-image: "images/features/accounting_audit.svg"
+image: "images/features/accounting_audit.png"
 date: 2018-12-28T15:14:39+10:00
 weight: 4
 ---
