@@ -2,9 +2,38 @@
   {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
   <ul>
     {% for item in mainmenu %}
-    <li class="{% if item.url == page.url %}active{% endif %}">
-      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+    <li class="{% if item.url == page.url %}active{% endif %} {% if item.children %}has-children{% endif %}">
+      <a href="{{ item.url | relative_url }}">
+        {{ item.name }}
+        {% if item.children %}
+          <span class="menu-toggle">+</span>
+        {% endif %}
+      </a>
+      {% if item.children %}
+        <ul class="sub-menu">
+          {% for child in item.children %}
+            <li class="{% if child.url == page.url %}active{% endif %}">
+              <a href="{{ child.url | relative_url }}">{{ child.name }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     </li>
     {% endfor %}
   </ul>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const menuToggles = document.querySelectorAll('.menu-toggle');
+  
+  menuToggles.forEach(toggle => {
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      const subMenu = this.closest('li').querySelector('.sub-menu');
+      subMenu.classList.toggle('is-visible');
+      this.textContent = this.textContent === '+' ? '-' : '+';
+    });
+  });
+});
+</script>

@@ -13,6 +13,29 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  .has-children {
+    position: relative;
+    
+    .menu-toggle {
+      position: absolute;
+      top: 0;
+      margin-left: 16px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+  }
+
+  .sub-menu {
+    display: none;
+    font-size: 24px;
+    margin-top: 12px;
+    
+    &.is-visible {
+      display: block;
+    }
+  }
+
   &.open {
     opacity: 0.9;
     visibility: visible;

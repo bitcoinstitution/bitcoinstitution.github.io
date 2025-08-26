@@ -4,6 +4,47 @@
   @include media-breakpoint-up(md) {
     display: block;
   }
+
+  .sub-menu {
+    display: none;
+    list-style: none;
+    padding: 24px;
+    border-radius: 8px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background: $white-offset;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+    // Add this to keep submenu visible while hovering submenu items
+    &:hover {
+      display: block;
+    }
+    
+    > li {
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      > a {
+        color: $dark;
+        text-decoration: none;
+        font-weight: 400;
+        &:hover {
+          text-decoration: underline;
+          display: block;
+        }
+      }
+    }
+  }
+
+  .arrow {
+    font-size: 0.6em;
+    margin-left: 5px;
+  }
+
   > ul {
     display: flex;
     align-items: center;
@@ -11,6 +52,12 @@
     > li {
       list-style: none;
       font-size: 1rem;
+      position: relative;
+      &:hover {
+        > .sub-menu {
+          display: block;
+        }
+      }
       > a {
         padding: 10px 12px 10px 12px;
         display: inline-block;
@@ -28,6 +75,9 @@
           &:hover {
             text-decoration: none;
             transition: all 225ms ease-in 0s;
+            > .sub-menu {
+              display: block;
+            }
           }
         }
       }
