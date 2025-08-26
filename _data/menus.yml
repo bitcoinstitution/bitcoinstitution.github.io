@@ -8,7 +8,7 @@ main:
 # Example of a menu item with children (dropdown)
 #  - name: Services
 #    url: /services/
-#   weight: 3
+#    weight: 3
 #    children:
 #    - name: Service 1
 #      url: /services/service1/
