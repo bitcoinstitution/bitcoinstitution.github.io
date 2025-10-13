@@ -1,7 +1,8 @@
 .feature-container {
   border-radius: 24px;
   padding: 48px;
-  background-color: $navy-dark;
+  background: $navy-dark;
+  background: linear-gradient(0deg, rgba(19, 19, 35, 0.8) 0%, rgba(19, 19, 35, 0.4) 100%);
 
   @include media-breakpoint-up(sm) {
     padding: 24px;
@@ -13,6 +14,23 @@
     font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li {
+      padding-left: 8px; /* Adjust as needed for space */
+      &::before {
+        content: "🚫"; /* Or use a hex code like: content: '\1F981'; */
+        display: inline-block;
+        margin-left: -20px; /* To position the emoji correctly */
+        width: 20px; /* Ensure consistent spacing */
+        text-align: center;
+        margin-right: 16px;
+      }
+    }
   }
 
   .feature {

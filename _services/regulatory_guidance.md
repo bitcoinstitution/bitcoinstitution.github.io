@@ -1,6 +1,6 @@
 ---
 title: "Regulatory & Tax Guidance"
-image: "images/features/regulatory_guidance.svg"
+image: "images/features/regulatory_guidance.png"
 date: 2019-05-18T12:33:46+10:00
 weight: 7
 ---

@@ -1,6 +1,6 @@
 .main-menu-mobile {
   position: fixed;
-  background: $primary;
+  background: $navy-dark;
   top: 0;
   left: 0;
   width: 100%;
@@ -13,8 +13,31 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  .has-children {
+    position: relative;
+    
+    .menu-toggle {
+      position: absolute;
+      top: 0;
+      margin-left: 16px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+  }
+
+  .sub-menu {
+    display: none;
+    font-size: 24px;
+    margin-top: 12px;
+    
+    &.is-visible {
+      display: block;
+    }
+  }
+
   &.open {
-    opacity: 0.9;
+    opacity: 0.98;
     visibility: visible;
     height: 100%;
     z-index: 20;

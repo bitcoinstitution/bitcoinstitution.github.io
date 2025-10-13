@@ -18,7 +18,7 @@
   <meta property="og:title" content="Regulatory & Tax Guidance"/>
   <meta property="og:type" content="website"/>
   <meta property="og:url" content=""/>
-  <meta property="og:image" content="http://localhost:4000/images/features/regulatory_guidance.svg"/>
+  <meta property="og:image" content="http://localhost:4000/images/features/regulatory_guidance.png"/>
   
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:site" content=""/>
@@ -31,17 +31,39 @@
   
   <ul>
     
-    <li class="">
-      <a href="/individual-treasury/">Public Training & Certification</a>
+    <li class=" ">
+      <a href="/individual-treasury/">
+        Public Training & Certification
+        
+      </a>
+      
     </li>
     
-    <li class="">
-      <a href="/myths/">Can BTC Replace USD?</a>
+    <li class=" ">
+      <a href="/myths/">
+        Can BTC Replace USD?
+        
+      </a>
+      
     </li>
     
   </ul>
 </div>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const menuToggles = document.querySelectorAll('.menu-toggle');
+  
+  menuToggles.forEach(toggle => {
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      const subMenu = this.closest('li').querySelector('.sub-menu');
+      subMenu.classList.toggle('is-visible');
+      this.textContent = this.textContent === '+' ? '-' : '+';
+    });
+  });
+});
+</script>
   <div id="wrapper" class="wrapper">
     <div class='header'>
   <div class="container">
@@ -55,17 +77,24 @@
   
   <ul>
     
-    <li class="">
-      <a href="/individual-treasury/">Public Training & Certification</a>
+    <li class=" ">
+      <a href="/individual-treasury/">
+        Public Training & Certification
+        
+      </a>
+      
     </li>
     
-    <li class="">
-      <a href="/myths/">Can BTC Replace USD?</a>
+    <li class=" ">
+      <a href="/myths/">
+        Can BTC Replace USD?
+        
+      </a>
+      
     </li>
     
   </ul>
 </div>
-
     <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
   <span class="hamburger-box">
     <span class="hamburger-inner"></span>

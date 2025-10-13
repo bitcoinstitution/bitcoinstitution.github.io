@@ -31,17 +31,39 @@
   
   <ul>
     
-    <li class="">
-      <a href="/individual-treasury/">Public Training & Certification</a>
+    <li class=" ">
+      <a href="/individual-treasury/">
+        Public Training & Certification
+        
+      </a>
+      
     </li>
     
-    <li class="active">
-      <a href="/myths/">Can BTC Replace USD?</a>
+    <li class="active ">
+      <a href="/myths/">
+        Can BTC Replace USD?
+        
+      </a>
+      
     </li>
     
   </ul>
 </div>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const menuToggles = document.querySelectorAll('.menu-toggle');
+  
+  menuToggles.forEach(toggle => {
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      const subMenu = this.closest('li').querySelector('.sub-menu');
+      subMenu.classList.toggle('is-visible');
+      this.textContent = this.textContent === '+' ? '-' : '+';
+    });
+  });
+});
+</script>
   <div id="wrapper" class="wrapper">
     <div class='header'>
   <div class="container">
@@ -55,17 +77,24 @@
   
   <ul>
     
-    <li class="">
-      <a href="/individual-treasury/">Public Training & Certification</a>
+    <li class=" ">
+      <a href="/individual-treasury/">
+        Public Training & Certification
+        
+      </a>
+      
     </li>
     
-    <li class="active">
-      <a href="/myths/">Can BTC Replace USD?</a>
+    <li class="active ">
+      <a href="/myths/">
+        Can BTC Replace USD?
+        
+      </a>
+      
     </li>
     
   </ul>
 </div>
-
     <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
   <span class="hamburger-box">
     <span class="hamburger-inner"></span>
@@ -77,7 +106,7 @@
     <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-7 order-2 order-md-1">
+      <div class="col-12 col-md-7 col-lg-7 order-2 order-md-1 m-auto">
         <h1 id="btc-will-replace-usd-as-the-worlds-money">BTC Will Replace USD as the World’s Money</h1>
 
 <p>The main premise of bitcoin treasury is its ability to become world money before the USD collapses due to accelerated debasement. However, Bitcoin as the world’s money is not obvious to many due to various myths and misconceptions. We’ll show you how wrong that is.</p>
@@ -94,7 +123,7 @@
         </div>
       </div>
       
-      <div class="col-12 col-md-5 col-lg-5 order-1 order-md-2 position-relative">
+      <div class="col-12 col-md-5 col-lg-5 order-1 order-md-2 position-relative m-auto">
         <img alt="BTC Will Replace USD as the World’s Money" class="intro-image intro-image-hide-mobile" src="/images/illustrations/bitcoin-replace-usd.svg" />
       </div>
       

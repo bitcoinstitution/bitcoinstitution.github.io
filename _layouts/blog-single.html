@@ -1,0 +1,82 @@
+---
+layout: default
+bodyClass: "page-blog"
+---
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+        <!-- Main Content -->
+        <div class="col-12 col-md-8">
+            <div class="service service-single">
+                <h1 class="title">{{page.title}}</h1>
+                <!-- Add Meta Information -->
+                <div class="blog-meta">
+                    {% if page.author %}
+                    <span class="meta-item author">
+                        {{ page.author }}
+                    </span>
+                    {% endif %}
+                    <span class="separator">•</span>
+                    {% if page.date %}
+                    <span class="meta-item date">
+                        {{ page.date | date: "%B %d, %Y" }}
+                    </span>
+                    {% endif %}
+                </div>
+                <div class="content">{{content}}</div>
+            </div>
+        </div>
+        
+        <!-- Sidebar -->
+        <div class="col-12 col-md-4">
+            <div class="blog-sidebar">
+                <!-- Topics -->
+                {% if page.topics %}
+                <div class="sidebar-widget">
+                    <h4>Topics</h4>
+                    <div class="topic-list">
+                        {% for topic in page.topics %}
+                            <span class="topic-tag">{{ topic }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                <!-- Related Posts -->
+                <div class="sidebar-widget">
+                    <h4>Related Posts</h4>
+                    <!-- Inside the related-posts div -->
+                    <div class="related-posts">
+                        {% assign maxRelated = 4 %}
+                        {% assign relatedCount = 0 %}
+                        {% for post in site.posts %}
+                            {% if relatedCount < maxRelated and post.url != page.url %}
+                                {% if page.topics %}
+                                    {% for topic in page.topics %}
+                                        {% if post.topics contains topic %}
+                                            <div class="related-post-item">
+                                                {% if post.image %}
+                                                <div class="related-post-image">
+                                                    <a href="{{ post.url }}">
+                                                        <img src="{{ post.image }}" alt="{{ post.title }}">
+                                                    </a>
+                                                </div>
+                                                {% endif %}
+                                                <div class="related-post-content">
+                                                    <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+                                                    <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+                                                </div>
+                                            </div>
+                                            {% assign relatedCount = relatedCount | plus: 1 %}
+                                            {% break %}
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

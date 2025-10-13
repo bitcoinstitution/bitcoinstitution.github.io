@@ -31,17 +31,39 @@
   
   <ul>
     
-    <li class="">
-      <a href="/individual-treasury/">Public Training & Certification</a>
+    <li class=" ">
+      <a href="/individual-treasury/">
+        Public Training & Certification
+        
+      </a>
+      
     </li>
     
-    <li class="">
-      <a href="/myths/">Can BTC Replace USD?</a>
+    <li class=" ">
+      <a href="/myths/">
+        Can BTC Replace USD?
+        
+      </a>
+      
     </li>
     
   </ul>
 </div>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const menuToggles = document.querySelectorAll('.menu-toggle');
+  
+  menuToggles.forEach(toggle => {
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      const subMenu = this.closest('li').querySelector('.sub-menu');
+      subMenu.classList.toggle('is-visible');
+      this.textContent = this.textContent === '+' ? '-' : '+';
+    });
+  });
+});
+</script>
   <div id="wrapper" class="wrapper">
     <div class='header'>
   <div class="container">
@@ -55,17 +77,24 @@
   
   <ul>
     
-    <li class="">
-      <a href="/individual-treasury/">Public Training & Certification</a>
+    <li class=" ">
+      <a href="/individual-treasury/">
+        Public Training & Certification
+        
+      </a>
+      
     </li>
     
-    <li class="">
-      <a href="/myths/">Can BTC Replace USD?</a>
+    <li class=" ">
+      <a href="/myths/">
+        Can BTC Replace USD?
+        
+      </a>
+      
     </li>
     
   </ul>
 </div>
-
     <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
   <span class="hamburger-box">
     <span class="hamburger-inner"></span>
@@ -77,15 +106,15 @@
     <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1 m-auto">
         <h1 id="services-that-grow-with-your-business">Services that grow with your business</h1>
 
 <p>Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.</p>
 
       </div>
       
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt=Services class="intro-image intro-image-absolute intro-image-hide-mobile" src="/images/illustrations/reading.svg" />
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative m-auto">
+        <img alt=Services class="intro-image intro-image-hide-mobile" src="/images/illustrations/reading.svg" />
       </div>
       
     </div>

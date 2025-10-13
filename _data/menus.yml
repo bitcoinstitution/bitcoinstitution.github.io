@@ -5,6 +5,15 @@ main:
   - name: "Can BTC Replace USD?"
     url: "/myths/"
     weight: 2
+# Example of a menu item with children (dropdown)
+#  - name: Services
+#    url: /services/
+#    weight: 3
+#    children:
+#    - name: Service 1
+#      url: /services/service1/
+#    - name: Service 2
+#      url: /services/service2/
 
 footer:
   - name: "Public Training & Certification"
