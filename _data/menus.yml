@@ -1,24 +1,24 @@
 main:
-  - name: "Public Training & Certification"
-    url: "/individual-treasury/"
+  - name: "for Institutions/Organizations"
+    url: "/organizational-treasury/"
     weight: 1
-  - name: "Can BTC Replace USD?"
-    url: "/myths/"
+  - name: "for Individuals"
+    url: "/individual-treasury/"
     weight: 2
 # Example of a menu item with children (dropdown)
-#  - name: Services
-#    url: /services/
-#    weight: 3
-#    children:
-#    - name: Service 1
-#      url: /services/service1/
-#    - name: Service 2
-#      url: /services/service2/
+  - name: Articles
+    url: /blog/
+    weight: 4
+    children:
+    - name: Can BTC Replace USD?
+      url: /myths/
+    - name: Service 2
+      url: /services/service2/
 
 footer:
-  - name: "Public Training & Certification"
-    url: "/individual-treasury/"
+  - name: "for Institutions/Organizations"
+    url: "/organizational-treasury/"
     weight: 1
-  - name: "Can BTC Replace USD?"
-    url: "/myths/"
+  - name: "for Individuals"
+    url: "/individual-treasury/"
     weight: 2
