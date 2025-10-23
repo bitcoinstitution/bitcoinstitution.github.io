@@ -1,13 +1,21 @@
 ---
-title: Multiply Your Profits, Like a Smart Leader
-layout: home
-description: We help smart leaders outperform competitors by accumulating bitcoin—multiplying profits, building financial resilience, and strengthening culture, all in one strategic move.
+title: Keuangan Kamu Sudah Merdeka?
+layout: merdeka
+description: Merdekakan 
 intro_image: "images/illustrations/apocalypse.png"
 intro_image_absolute: false
-intro_image_hide_on_mobile: true
+intro_image_hide_on_mobile: false
 show_call_box: false
 ---
 
-# Multiply Your Profits, Like a Smart Leader.
+# Training Merdeka Finansial
+## Dua Jam Belajar → Merdeka dari Penjajah Asing
 
-We help smart leaders outperform competitors by accumulating bitcoin. This multiplies profits, shields your company from upcoming crises, and strengthens its culture — all through one smart strategic move. Agree bitcoin's growth is unstoppable?
+Bitcoin beresiko? Justru yang sangat beresiko adalah tidak punya bitcoin. Kenapa? Banyak yang belum sadar, dolar umurnya tinggal belasan tahun lagi. Rupiah, beserta semua uang lain yang mengekor dolar, ikut terancam. Bahaya juga ke saham, reksadana, bahkan properti. Bitcoin lahir untuk menyelesaikan masalah ini.
+
+Punya dua jam? Kita jelaskan semuanya. Mulai dari fakta sejarah yang sengaja disembunyikan. Sampai demo langkah praktis untuk benar-benar merdeka sebelum tahun 2035.
+
+Jadwal terdekat: Kamis, 30 Oktober. 08:30 s/d 11:30. Sovereign Plaza Jakarta. 
+
+
+ 
