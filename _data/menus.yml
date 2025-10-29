@@ -1,25 +1,9 @@
-
 main:
-  - name: "for Institutions/Organizations"
-    url: "/organizational-treasury/"
+  - name: "Training Merdeka Finansial"
+    url: "/"
     weight: 1
-  - name: "for Individuals"
-    url: "/individual-treasury/"
-    weight: 2
-# Example of a menu item with children (dropdown)
-  - name: Articles
-    url: /blog/
-    weight: 4
-    children:
-    - name: Can BTC Replace USD?
-      url: /myths/
-    - name: Service 2
-      url: /services/service2/
 
 footer:
-  - name: "for Institutions/Organizations"
-    url: "/organizational-treasury/"
+  - name: "Training Merdeka Finansial"
+    url: "/"
     weight: 1
-  - name: "for Individuals"
-    url: "/individual-treasury/"
-    weight: 2
