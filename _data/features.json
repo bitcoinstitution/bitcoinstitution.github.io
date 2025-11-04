@@ -17,7 +17,7 @@
     "cta": {
       "class": "secondary",
       "text": "Public Training & Certification",
-      "url": "/individual-treasury"
+      "url": "/"
     },
     "image": {
       "url": "images/features/individual_treasury.png"

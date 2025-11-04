@@ -1,0 +1,105 @@
+---
+layout: default
+bodyClass: "page-home"
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-8 col-lg-8 order-2 order-md-1 m-auto">
+        {{ content }}
+        <!--
+        <div class="cta">
+          <div class="call-box-top">
+            <a href="{{ site.data.contact.contact_button_link }}" class="button">Book Bitcoin Training Series</a>
+          </div>
+        </div>
+        -->
+      </div>
+      {% if page.intro_image %}
+      <div class="col-12 col-md-4 col-lg-4 order-1 order-md-2 position-relative m-auto">
+        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="container pt-6 pb-6 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 mb-1">
+      <div class="row justify-content-start content">
+        <span>...</span>
+        <h2>1. Lupakan (Dulu) Bitcoin</h2>
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/zTM9hayg1tQ?controls=1&amp;cc_load_policy=1&amp;rel=0&amp;modestbranding=1&amp;showinfo=0" allowfullscreen></iframe>
+        </div>
+        <p>
+          <input type="checkbox" id="1" class="box"> Saya sudah menonton ini</input> 
+        </p>
+        <span>...</span>
+        <h2>2. WHY: Krismon Global Segera Tiba, Karena Uang Tidak Terbatas (coming soon)</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
+<input type="checkbox" id="2" class="box">checkbox2</input><br>
+<input type="checkbox" id="3" class="box">checkbox3</input><br>
+<input type="checkbox" id="4" class="box">checkbox4</input><br>
+<input type="checkbox" id="5" class="box">checkbox5</input><br>
+<input type="checkbox" id="6" class="box">checkbox6</input><br>
+-->
+
+<div class="content">
+  <span>...</span>
+    <h1>Mitos-Mitos Seputar Bitcoin</h1>
+</div>
+
+<div class="container pt-6 pb-6">
+  <div class="myth myth-summary">
+    
+    <div class="content myth-content">
+      {% for myth in site.myths %}
+      <div class="row mb-6 m-auto">
+        <div class="col-12 col-md-5 col-lg-4 order-2 order-md-1 position-relative">
+          <img alt="{{ myth.title }}"" class="intro-image" src="{{ myth.image | relative_url }}" />
+        </div>
+        <div class="col-12 col-md-7 col-lg-8 order-1 order-md-2">
+          <h3 class="myth-category">Myth #{{ myth.weight }}</h3>
+          <h2 class="myth-title">
+            <a href="{{ myth.url | relative_url }}">{{ myth.title }}</a>
+          </h2>
+          <p>{{ myth.excerpt | markdownify | strip_html }}</p>
+          <!--
+          <div class="call-box-top">
+            <a href="{{ site.data.contact.contact_button_link }}" class="button">Book Bitcoin Training Series</a>
+          </div>
+          -->
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+  let boxes = document.getElementsByClassName('box').length;
+
+  function save() {	
+    for(let i = 1; i <= boxes; i++){
+      var checkbox = document.getElementById(String(i));
+      localStorage.setItem("checkbox" + String(i), checkbox.checked);	
+    }
+  }
+
+  //for loading
+  for(let i = 1; i <= boxes; i++){
+    if(localStorage.length > 0){
+      var checked = JSON.parse(localStorage.getItem("checkbox" + String(i)));
+      document.getElementById(String(i)).checked = checked;
+    }
+  }
+  window.addEventListener('change', save);
+</script>
