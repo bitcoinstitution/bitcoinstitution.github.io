@@ -11,9 +11,9 @@ show_call_box: false
 # Training Merdeka Finansial
 ## Dua Jam Belajar → Merdeka dari Penjajah Asing
 
-Bitcoin beresiko? Justru yang sangat beresiko adalah tidak punya bitcoin. Kenapa? Banyak yang belum sadar, dolar umurnya tinggal belasan tahun lagi. Rupiah, beserta semua uang lain yang terpaksa mengekor dolar, ikut terancam. Bahayanya berlanjut ke saham, reksadana, bahkan properti. Bitcoin lahir untuk menyelesaikan masalah genting ini.
+_Karena harga bitcoin bisa naik setinggi & secepat itu, pasti resikonya tinggi!_ Justru yang sangat beresiko adalah tidak menabung bitcoin. Kenapa? Banyak yang belum sadar, dolar umurnya tinggal belasan tahun lagi. Rupiah, beserta semua uang lain yang terpaksa mengekor dolar, ikut terancam. Efek buruknya bisa berlanjut ke saham, reksadana, bahkan properti. Bitcoin lahir untuk menyelesaikan masalah genting ini.
 
-Punya dua jam? Kita jelaskan semuanya. Mulai dari kenapa kebijakan Amerika Serikat bisa mengubah cicilan KPR kamu (bukti kita belum sepenuhnya merdeka), fakta sejarah yang sengaja disembunyikan, sampai demo langkah praktis untuk segera merdeka finansial.
+Punya dua jam? Kita jelaskan semuanya. Mulai dari kenapa kebijakan Amerika Serikat bisa meningkatkan cicilan KPR kamu (bukti kita belum sepenuhnya merdeka), fakta sejarah bagaimana riba menggelembungkan jumlah uang, sampai demo langkah praktis untuk segera merdeka finansial.
 
 
  
