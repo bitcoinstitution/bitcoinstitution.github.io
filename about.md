@@ -1,15 +1,40 @@
 ---
-title: About
+title: Bitcoinstitution's Reason for Being
 layout: page
 description: About
 bodyClass: page-about
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+We’re currently in a global race. It's not about AI, nor robotic.
 
-![Accounting Services](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
+It's about the only digital money with a guaranteed fix supply.
+
+Economies that accumulate bitcoin early will outperform those that accumulate later.
+
+If you love bitcoin and your local economies -- a place where your loved ones nourished -- let's move together.
+
+# Problems
+
+1. As the backbone of most households, businesses need bitcoin the most — yet most bitcoin education providers still focus on individuals.
+2. Bitcoiners love teaching about bitcoin and want to earn more sats (bitcoin's smallest unit), while businesses have learning budgets to spend on the best ROTI (return on training investment).
+3. To become a learning provider that businesses can trust, we need strong quality assurance.
+
+Specific to Indonesia, 
+
+1. Bitcoin isn't allowed as a medium of exchange.
+2. The government still has 0 bitcoin.
+
+# How to Solve That Problem?
+
+1. Certification.
+2. Professional public onsite training and webinar.
+3. More bitcoin educators -- especially those with entrepreneur or professional background.
+
+# What is Bitcoinstitution
+
+
+
+![Accounting Services](/images/team/trainer-ricky.jpeg)
 
 # Objectives
 

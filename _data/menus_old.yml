@@ -15,6 +15,12 @@ main:
       url: /myths/
     - name: Service 2
       url: /services/service2/
+    - name: "Corporate Service (EN)"
+      url: "/organizational-treasury/"
+      weight: 2
+    - name: "Belajar Gratis"
+      url: "/gratis/"
+      weight: 3
 
 footer:
   - name: "for Institutions/Organizations"
