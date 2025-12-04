@@ -16,10 +16,8 @@ bodyClass: "page-home"
         </div>
       </div>
       {% if page.intro_image %}
-      <div class="col-12 col-lg-5 position-relative m-auto">
-        <div class="ratio ratio-16x9">
-          <iframe src="https://www.youtube.com/embed/4gIFunGjZH4?controls=0&amp;cc_load_policy=1&amp;rel=0&amp;modestbranding=1&amp;showinfo=0" allowfullscreen></iframe>
-        </div>
+      <div class="col-12 col-md-5 col-lg-5 order-1 order-md-2 position-relative m-auto">
+        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
       </div>
       {% endif %}
     </div>
@@ -30,33 +28,85 @@ bodyClass: "page-home"
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row content justify-content-start">
       <div class="col-12 mb-1">
-          <span>...</span>
-          <h2>Galeri Foto Kegiatan</h2>
-          <div class="row justify-content-start">
-              <div class="image-gallery col-12 col-md-4 mb-1">
-                <img alt="training snapshot" class="img-fluid" src="{{ "/images/training/merdeka2-1.jpeg" | relative_url }}" />
-              </div>
-              <div class="image-gallery col-12 col-md-4 mb-1">
-                <img alt="training snapshot" class="img-fluid" src="{{ "/images/training/ricky-merdeka1-1.jpeg" | relative_url }}" />
-              </div>
-              <div class="image-gallery col-12 col-md-4 mb-1">
-                <img alt="training snapshot" class="img-fluid" src="{{ "/images/training/ricky-merdeka1-2.jpeg" | relative_url }}" />
-              </div>
-              <div class="image-gallery col-12 col-md-4 mb-1">
-                <img alt="training snapshot" class="img-fluid" src="{{ "/images/training/ricky-cbt-1.jpeg" | relative_url }}" />
-              </div>
-              <div class="image-gallery col-12 col-md-4 mb-1">
-                <img alt="training snapshot" class="img-fluid" src="{{ "/images/training/ricky-cbt-2.jpeg" | relative_url }}" />
-              </div>
-              <div class="image-gallery col-12 col-md-4 mb-1">
-                <img alt="training snapshot" class="img-fluid" src="{{ "/images/training/ricky-cbt-3.jpeg" | relative_url }}" />
-              </div>
+        <span>...</span>
+        <h2>Galeri Foto Kegiatan</h2>
+        <div class="row justify-content-start">
+            <div class="image-gallery col-12 col-md-4 mb-1">
+              <img alt="training snapshot" class="img-fluid" src="{{ "/images/training/merdeka2-1.jpeg" | relative_url }}" />
+            </div>
+            <div class="image-gallery col-12 col-md-4 mb-1">
+              <img alt="training snapshot" class="img-fluid" src="{{ "/images/training/ricky-merdeka1-1.jpeg" | relative_url }}" />
+            </div>
+            <div class="image-gallery col-12 col-md-4 mb-1">
+              <img alt="training snapshot" class="img-fluid" src="{{ "/images/training/ricky-merdeka1-2.jpeg" | relative_url }}" />
+            </div>
+            <div class="image-gallery col-12 col-md-4 mb-1">
+              <img alt="training snapshot" class="img-fluid" src="{{ "/images/training/ricky-cbt-1.jpeg" | relative_url }}" />
+            </div>
+            <div class="image-gallery col-12 col-md-4 mb-1">
+              <img alt="training snapshot" class="img-fluid" src="{{ "/images/training/ricky-cbt-2.jpeg" | relative_url }}" />
+            </div>
+            <div class="image-gallery col-12 col-md-4 mb-1">
+              <img alt="training snapshot" class="img-fluid" src="{{ "/images/training/ricky-cbt-3.jpeg" | relative_url }}" />
+            </div>
+        </div>
+        <div class="cta mb-4">
+          <div class="call-box-top">
+            <a href="https://wa.me/6289678601060" class="button">Daftar Training</a>
           </div>
-          <div class="cta mb-4">
-            <div class="call-box-top">
-              <a href="https://wa.me/6289678601060" class="button">Daftar Training</a>
+        </div>
+        <div class="col-12 mb-1">
+          <span>...</span>
+          <h2>Materi Ajar</h2>
+          <p>
+            Sangat ramah bagi pemula – cocok untuk peserta yang bahkan belum pernah mendengar tentang bitcoin.
+          </p>
+          <p>
+            Kelasnya kecil (maksimal 6 peserta) dan hanya berlangsung selama dua jam.
+          </p>
+          <p>
+            Hanya dalam format tatap muka. Karena dua hal: (1) Pelatihan ini penuh dengan aktivitas oleh peserta, (2) Mempelajari bitcoin dan alasan diciptakannya memerlukan banyak proses unlearning. Berdasarkan pengalaman kami, format tatap muka sangat membantu untuk itu.
+          </p>
+          <div class="feature-container mt-4 mb-4">
+            <div class="feature">
+              <div class="row justify-content-start">
+                <div class="col-12 col-md-4 mb-1">
+                  <div class="row justify-content-start service">
+                    <div class="col-12 col-md-12 mb-1">
+                      <h4 class="mt-1">1.<br>WHY – Kenapa Bitcoin Diciptakan</h4>
+                      <p class="service-excerpt">
+                        Anda akan mulai dengan sebuah simulasi yang menunjukkan fakta betapa rusaknya sistem moneter global kita saat ini, dan mengapa kondisinya hanya akan semakin memburuk dan runtuh dalam beberapa tahun ke depan. Bahkan instrumen investasi konvensional pun ikut berisiko karena hal ini.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 mb-1">
+                  <div class="row justify-content-start service">
+                    <div class="col-12 col-md-12 mb-1">
+                      <h4 class="mt-1">2.<br>HOW – Kenapa CUMA Bitcoin Solusi dari Masalah yang Pelik Ini</h4>
+                      <p class="service-excerpt">Setelah memahami masalahnya, kami akan menunjukkan bagaimana bitcoin menjadi SATU-SATUNYA solusi yang layak untuk mengatasinya. Penyampaian tetap minim ceramah, dibuat menarik sekaligus membuka wawasan.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 mb-1">
+                  <div class="row justify-content-start service">
+                    <div class="col-12 col-md-12 mb-1">
+                      <h4 class="mt-1">3.<br>WHAT – Langkah Praktis untuk Merdeka Finansial</h4>
+                      <p class="service-excerpt">Sesi akan ditutup dengan panduan akumulasi bitcoin berbasis perhitungan yang realistis, agar peserta benar-benar bisa merdeka finansial pada tahun 2035.</p>
+                    </div>
+                  </div>
+                </div>
+                <p class="mb-2">
+                  Dalam dua jam, Anda akan: (1) menyadari bahwa bergantung pada aset konvensional itu belum benar-benar berdaulat secara finansial, (2) bisa melakukan langkah praktis dan masuk akal untuk segera berdaulat secara finansial.
+                </p>
+              </div>
+              <div class="cta mb-2">
+                <div class="call-box-top">
+                  <a href="https://wa.me/6289678601060" class="button">Daftar Training</a>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
       </div>
     </div>
   </div>
@@ -79,7 +129,7 @@ bodyClass: "page-home"
                         <a href="https://linkedin.com/in/rickysaif" target="blank"><h4 class="mt-1">Ricky Saif</h4></a>
                         <!--<img src="{{ "/images/social/linekdin.svg" | relative_url }}" title="Linkedin Ricky" alt="{{ item.name }}" />-->
                         <p class="service-excerpt">
-                          <p class="service-excerpt">Sudah mengajar kaum profesional & pemilik bisnis sejak 2013. Sebelum bitcoin ada sudah tahu masalah uang fiat, tapi baru dengar & beli bitcoin di 2017. Karena belajar mandiri, tidak sadar kalau pemahaman bitcoinnya bolong-bolong. Alhasil, baru mulai rutin akumulasi tahun 2020, saat tahu ada halving dan siklusnya. Sedang membangun institusi pendidikan profesional terkait bitcoin, sehingga tidak ada lagi orang atau perusahaan Indonesia yang telat akumulasi, hanya karena salah belajar seperti dirinya dulu.</p>
+                          <p class="service-excerpt">Sudah mengajar kaum profesional & pemilik bisnis sejak 2013. Sebelum bitcoin ada sudah tahu masalah uang fiat, tapi baru dengar & beli bitcoin di 2017. Karena belajar mandiri, tidak sadar kalau pemahaman bitcoinnya bolong-bolong. Alhasil, baru mulai rutin akumulasi tahun 2020, saat tahu ada halving dan siklusnya. Sedang membangun gerakan Merdeka Finansial, sehingga tidak ada lagi orang atau perusahaan Indonesia yang telat akumulasi, hanya karena salah belajar seperti dirinya dulu.</p>
                           Tempat training rutin: TB Simatupang & Cikini
                         </p>
                       </div>

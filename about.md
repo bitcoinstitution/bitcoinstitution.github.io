@@ -1,112 +1,117 @@
 ---
-title: Bitcoinstitution's Reason for Being
+title: A Letter for Bitcoiner
 layout: page
 description: About
 bodyClass: page-about
 ---
 
-We’re currently in a global race. It's not about AI, nor robotic.
 
-It's about the only digital money with a guaranteed fix supply.
+If you truly understand bitcoin, you already know something most people don’t know
 
-Economies that accumulate bitcoin early will outperform those that accumulate later.
+# Humanity is Now in a Global Race.
 
-If you love bitcoin and your local economies -- a place where your loved ones nourished -- let's move together.
+It’s not a race about AI or robotics — those are obvious.
 
-# Problems
+It’s a race to acquire the only digital money with a fixed, guaranteed supply.
 
-1. As the backbone of most households, businesses need bitcoin the most — yet most bitcoin education providers still focus on individuals.
-2. Bitcoiners love teaching about bitcoin and want to earn more sats (bitcoin's smallest unit), while businesses have learning budgets to spend on the best ROTI (return on training investment).
-3. To become a learning provider that businesses can trust, we need strong quality assurance.
+The race is extremely tight, for three reasons:
 
-Specific to Indonesia, 
+1. Government money (and debt) across the world is increasing exponentially. And it's unstoppable, making we are all standing on a ticking time bomb — only a few years away from detonation.
+2. Only 5% of bitcoin supply left to mine. A lot of people/corporate/country that hold the circulating 95% understand bitcoin — making them reluctant to sell.
+3. At this point, it's impossible for other similar cryptocurrency project with anonymous founder to beat bitcoin's popularity. A project with well-identified founder might appears just as the next generation of world's central bank. 
 
-1. Bitcoin isn't allowed as a medium of exchange.
-2. The government still has 0 bitcoin.
+This race is the biggest wealth transfer in human history. Because...
 
-# How to Solve That Problem?
+>Economies that accumulate bitcoin early will outperform those that accumulate later.
 
-1. Certification.
-2. Professional public onsite training and webinar.
-3. More bitcoin educators -- especially those with entrepreneur or professional background.
+So…
 
-# What is Bitcoinstitution
+If you love your people and your local economy — the place where your loved ones grow and thrive — teach them bitcoin.
 
+Because this race isn’t about winning gold, silver, or bronze. In this race, every country (or local economy) who runs as fast as they can, wins.
 
+And you, the only bones and muscles your local economy needed to run in this race, are responsible for that.
 
-![Accounting Services](/images/team/trainer-ricky.jpeg)
+> Because with great knowledge comes great responsibility.
 
-# Objectives
+Bitcoinsitution exists to help you fulfill that responsibility efficiently and effectively.
 
-Financial accounting and financial reporting are often used as synonyms.
+Of course, only if you care about your local economy's future.
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
+# What Is 'Bitcoinsitution' Anyway?
 
-## Relevance
+Bitcoinstitution is simply a bitcoin educational institute.
 
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
+We have a growing number of professional bitcoin educators who allocate at least 4 hours of their month to teach bitcoin. 
 
-> The ingredients of relevance are the predictive value and confirmatory value.
+Some of us work full-time, some are business owners. Some are in the crypto industry, others in brick-and-mortar businesses. Some joined already having their own bitcoin education programs and materials, others did not.
 
-Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
+What unites us is the belief that standardized, high-touch bitcoin education is essential if we want to raise the quality of learning and amplify the impact.
 
-## Faithful Representation
+This is especially true when educating the private sector and the government — the two backbones of every local economy. These audiences prefer a B2B engagement and expect professionalism, consistency, and accountability.
 
-Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.
+In each educational programs we have, all educators collectively monitor and supervise its entire execution to ensure quality and integrity.
 
-## Enhancing Qualitative Characteristics
+Sounds interesting? Join us.
 
-### Verifiability
+# Who is Behind Bitcoinstitution?
 
-Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity.
+We are bitcoiners with three different strenghts.
 
-### Comparability
+1. Ricky Saif, a corporate trainer.
+2. Faizal Abdillah, an ex-banker.
+3. I Putu Banitama, an engineer.
 
-Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity.
+In 2025, we agreed that a professional bitcoin education body is badly needed.
 
-### Understandability
+We then gathered our resources to build the brand, the legal entity, the curriculum, and the network of educators.
 
-Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
-Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
+We also employ a general manager to run the operation, as all of us are currently employed.
 
----
+# Our Programs
 
-## Statement of cash flows
+## Monthly ₿-CERT Certification Exam
 
-The statement of cash flows considers the inputs and outputs in concrete cash within a stated period. The general template of a cash flow statement is as follows: Cash Inflow - Cash Outflow + Opening Balance = Closing Balance
+The core of a professional education service is a standardized trustworthy exam. Luckily, the bitcoin ecosystem already has [₿-CERT](https://planb.academy/en/certifications/b-cert). So we partnered with Plan ₿ Academy and host a monthly exam, where the participant will just need to pay for the accomodation cost.
 
-| Cash Inflow | Outflow   | Opening Balance |
-| ----------- | --------- | --------------- |
-| _Monday_    | `Tuesday` | **Wednesday**   |
-| 1           | 2         | 3               |
+The exam will test your general knowledge about bitcoin. Passing this test is a requirement to be part of our educator. This program is also open for those who doesn't want to actively teach bitcoin. If you curious about how well you understand bitcoin, take this low-cost but highly-valuable exam.
 
-**Example 1:** in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen's cash flow statement for the month of September looks like this:
+## Merdeka Finansial (Financial Sovereignty) Training
 
-- Cash inflow: $20
-- Cash outflow:$7
-- Opening balance: $5
-- Closing balance: $20 – $7 + $5 = $18
+A very beginner-friendly training -- suitable for those who have zero knowledge of bitcoin.
 
-**Example 2:** in the beginning of June, WikiTables, a company that buys and resells tables, sold 2 tables. They'd originally bought the tables for $25 each, and sold them at a price of $50 per table. The first table was paid out in cash however the second one was bought in credit terms. WikiTables' cash flow statement for the month of June looks like this:
+Designed as a good introduction, it's small in size (max. 6 students) and done in two hours. 
 
-> **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
+There's no remote version, because it's full of student-centered activities. Learning about bitcoin and the reason of its creation requires a lot of unlearning. Based on our experience, a face-to-face format helps a lot with that.
 
-## Statement of financial position (balance sheet)
+It covers:
 
-The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement.
+#### 1. The WHY of Bitcoin
 
-- **fixed assets**
-  - property
-  - building
-  - equipment (such as factory machinery)
-- **intangible assets**
-  - copyrights
-  - trademarks
-  - patents
-    - pending
-    - international
-- goodwill
+You'll start with a simulation that will teach you facts on how broken our current global monetary system is, and why it'll only getting worse and crumble in the next coupld of years. Even the conventional investments are at risk because of this. If you rely on conventional asset, then you're not truly sovereign.
 
-Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.
+#### 2. The HOW of Bitcoin
+
+After we covered the problem, we'll show how come bitcoin is the ONLY viable solution to solve the problem. Again, delivered with as less lecture as possible. It'd be engaging and enlightening at the same time.
+
+#### 3. The WHAT of Bitcoin
+
+It'll end with practical math-based suggestion on bitcoin accumulation, to really set the student free in the year of 2035.
+
+That's it. The end goal is to lay the path to real financial sovereignty, only in just two hours. We aim to create the most effective and scalable way to pull out people from the real-life matrix.
+
+# Don't Let Your People Fail.
+# Help Them Run Faster.
+
+Dear bitcoiner, what can you do now?
+
+1. If you love teaching, please consider being Financial Sovereignty trainer: Attend one of the training; Study hard to pass the [₿-CERT](https://planb.academy/en/certifications/b-cert) test; Tell us the place and schedule for your session. We'll handle the rest.
+2. If you prefer not to teach. Please help spread the awareness of our programs. Refer your bitcoin-skeptic friends and families the nearest Financial Sovereignty training.
+
+With a great knowledge, comes great responsibility.
+
+Only if you care enough. 
+
+Cheers.
+
+Ricky, Faizal, & Banitama.

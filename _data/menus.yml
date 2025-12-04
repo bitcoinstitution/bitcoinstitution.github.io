@@ -2,8 +2,11 @@ main:
   - name: "Training Merdeka Finansial"
     url: "/"
     weight: 1
+  - name: "Surat untuk Bitconer"
+    url: "/about/"
+    weight: 2
 
 footer:
-  - name: "Training Merdeka Finansial"
-    url: "/"
+  - name: "Surat untuk Bitconer"
+    url: "/about/"
     weight: 1
