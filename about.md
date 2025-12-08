@@ -88,11 +88,11 @@ It covers:
 
 #### 1. The WHY of Bitcoin
 
-You’ll start with a simulation that will show you how broken our current global monetary system is, and why it will only get worse and collapse in the next couple of years. Even conventional investments are at risk because of this. If you rely on conventional assets, then you’re not truly sovereign.
+You’ll start with a simulation that will show you how broken our current global monetary system is, and why it will only get worse and collapse in the next couple of years. Even conventional asset classes are at risk because of this. If you only rely on those, then you’re not truly sovereign.
 
 #### 2. The HOW of Bitcoin
 
-After we understand the problem, we show why bitcoin is the ONLY viable solution. Again, delivered with as little lecturing as possible — engaging and enlightening at the same time.
+After we understand the problem, we show why bitcoin is the ONLY viable solution. Not gold. Not silver. Not other cryptocurrency. Again, delivered with as little lecturing as possible — engaging and enlightening at the same time.
 
 #### 3. The WHAT of Bitcoin
 
