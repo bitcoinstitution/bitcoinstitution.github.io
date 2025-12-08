@@ -1,0 +1,19 @@
+.booking-iframe-wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  
+  iframe {
+    width: 100%;
+    min-height: 600px;
+    border: 0;
+    display: block;
+  }
+  
+  @include media-breakpoint-up(md) {
+    iframe {
+      min-height: 800px;
+    }
+  }
+}
+

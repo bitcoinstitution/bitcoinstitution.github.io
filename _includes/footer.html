@@ -1,11 +1,15 @@
-<!-- <div class="footer hide">
+<div class="footer hide">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 col-lg-4">
         <div class="footer-inner">
           <div class="logo-footer">
             <a href="{{ site.baseurl }}"><img height="{{ site.logo.footer_height }}" alt="{{ site.title }}" src="{{ site.logo.footer | relative_url }}" /></a>
           </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-8 d-md-flex align-items-md-center justify-content-md-end">
+        <div class="footer-inner footer-inner-right">
           <ul>
             {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
             {% for item in footermenu %}
@@ -18,4 +22,4 @@
       </div>
     </div>
   </div>
-</div> -->
+</div>

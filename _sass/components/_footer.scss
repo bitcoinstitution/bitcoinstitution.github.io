@@ -17,6 +17,12 @@
       flex-direction: row;
       align-items: center;
     }
+    &.footer-inner-right {
+      @include media-breakpoint-up(md) {
+        width: 100%;
+        justify-content: flex-end;
+      }
+    }
   }
   .footer-title {
     color: #ffffff;
