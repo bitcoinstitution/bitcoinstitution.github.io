@@ -72,7 +72,7 @@ We also employ a general manager to run the operation, as all of us are currentl
 
 ## Monthly ₿-CERT Certification Exam
 
-The core of a professional education service is a standardized, trustworthy exam. Luckily, the bitcoin ecosystem already has [₿-CERT](https://planb.academy/en/certifications/b-cert). So we partnered with Plan ₿ Academy and host a monthly exam where participants only pay the accommodation cost.
+The core of a professional education service is a standardized, trustworthy exam. Luckily, the bitcoin ecosystem already has [₿-CERT](https://planb.academy/en/certifications/b-cert). So we partnered with Plan ₿ Academy and host a monthly exam where participants only pay the accommodation and administrative cost.
 
 The exam tests your general knowledge of bitcoin. Passing this test is a requirement to be part of our educators. This program is also open to those who don't want to actively teach bitcoin. If you're curious about how well you understand bitcoin, take this low-cost but highly valuable exam.
 
