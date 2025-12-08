@@ -5,7 +5,7 @@ main:
   - name: "Daftar Kelasnya"
     url: "/booking/"
     weight: 2
-  - name: "Surat untuk Bitconer"
+  - name: "Surat untuk Bitcoiner"
     url: "/about/"
     weight: 3
 
@@ -16,6 +16,6 @@ footer:
   - name: "Daftar Kelasnya"
     url: "/booking/"
     weight: 2
-  - name: "Surat untuk Bitconer"
+  - name: "Surat untuk Bitcoiner"
     url: "/about/"
     weight: 3  
