@@ -17,3 +17,11 @@
   }
 }
 
+.booking-poster-link {
+  display: inline-block;
+  
+  @include media-breakpoint-up(lg) {
+    max-width: 60%;
+  }
+}
+
