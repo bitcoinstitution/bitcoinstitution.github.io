@@ -1,0 +1,14 @@
+# Categories data for Jekyll _data folder
+# Copy this file to your Jekyll project's _data folder
+
+- id: "services"
+  name: "Services"
+
+- id: "physical_goods"
+  name: "Physical Goods"
+
+- id: "digital_goods"
+  name: "Digital Goods"
+
+- id: "food_beverages"
+  name: "Food & Beverages"

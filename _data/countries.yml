@@ -1,0 +1,32 @@
+# Countries data for Jekyll _data folder
+# Copy this file to your Jekyll project's _data folder
+
+- code: "US"
+  name: "United States"
+  bitcoin_allowed: true
+  fiat_symbol: "$"
+  fiat_ticker: "USD"
+
+- code: "GB"
+  name: "United Kingdom"
+  bitcoin_allowed: true
+  fiat_symbol: "£"
+  fiat_ticker: "GBP"
+
+- code: "EU"
+  name: "European Union"
+  bitcoin_allowed: true
+  fiat_symbol: "€"
+  fiat_ticker: "EUR"
+
+- code: "CN"
+  name: "China"
+  bitcoin_allowed: false
+  fiat_symbol: "¥"
+  fiat_ticker: "CNY"
+
+- code: "SG"
+  name: "Singapore"
+  bitcoin_allowed: true
+  fiat_symbol: "S$"
+  fiat_ticker: "SGD"

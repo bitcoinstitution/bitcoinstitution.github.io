@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="Lovable Generated Project" />
+    <meta name="author" content="Lovable" />
+
+    {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
+    {% if page.meta_title %}<meta property="og:title" content="{{ page.meta_title }}"/>{% else %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ url }}"/>
+    {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}"/>{% endif %}
+    {% if page.description %}<meta property="og:description" content="{{ page.description }}"/>{% endif %}
+    <meta name="twitter:card" content="summary"/>
+    {% if site.data.seo.meta_twitter_site %}<meta name="twitter:site" content="{{ site.seo.meta_twitter_site }}"/>{% endif %}
+    {% if site.data.seo.meta_twitter_creator %}<meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}"/>{% endif %}
+  
+    <script type="module" crossorigin src="/assets/js/market.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/css/market.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

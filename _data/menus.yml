@@ -8,6 +8,9 @@ main:
   - name: "Surat untuk Bitcoiner"
     url: "/about/"
     weight: 3
+  - name: "Pasar"
+    url: "/market/"
+    weight: 4
 
 footer:
   - name: "Merdeka Finansial"

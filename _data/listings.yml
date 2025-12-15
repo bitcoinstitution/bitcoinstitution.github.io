@@ -1,0 +1,33 @@
+# Sample listings data for Jekyll _data folder
+# Copy this file to your Jekyll project's _data folder
+
+- id: "1"
+  title: "Bitcoin Strategy Session"
+  seller_name: "Satoshi Consulting"
+  description: "1-hour consultation on Bitcoin adoption for individuals and businesses."
+  category: "services"
+  country: "US"
+  city: "Miami"
+  fiat_price: 500
+  payment_methods:
+    - bitcoin
+    - fiat_transfer
+  contact_url: "https://wa.me/1234567890"
+  publish_date: "2024-01-15"
+  images:
+    - "https://example.com/image1.jpg"
+
+- id: "2"
+  title: "Handcrafted Bitcoin Art"
+  seller_name: "CryptoArtisan"
+  description: "Beautiful handmade Bitcoin-themed artwork."
+  category: "physical_goods"
+  country: "GB"
+  city: "London"
+  fiat_price: 250
+  payment_methods:
+    - bitcoin
+    - fiat_cash
+    - fiat_transfer
+  contact_url: "https://cryptoartisan.com"
+  publish_date: "2024-02-20"
