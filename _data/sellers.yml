@@ -1,0 +1,17 @@
+# Seller profiles for the Bitcoiner Marketplace
+# Each seller has an id, name, and markdown description
+
+- id: "ricky"
+  name: "Ricky Bitcoinstitution"
+  description: |
+    Host meetup Bitcoin Indonesia pertama. Salah satu pendiri Bitcoinstitution. Setiap bulan jadi host meetup bitcoin bulanan di Jakarta Pusat.  
+
+- id: "annas"
+  name: "Annas Ahmad"
+  description: |
+    Host komunitas Bitcoin di Bekasi dan juga pemilik brand minyak kelapa Vico Bagoes yang sudah berdiri sejak lama.
+
+- id: "johanes"
+  name: "Johanes Arifin Antusias"
+  description: |
+    Selain bisnis ekspedisi dan sekuritas, saya juga mengelola sekolah mengemudi mobil di daerah Tambora, Jakarta Barat.

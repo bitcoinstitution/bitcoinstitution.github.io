@@ -1,33 +1,54 @@
-# Sample listings data for Jekyll _data folder
-# Copy this file to your Jekyll project's _data folder
+# Listings data for Jekyll _data folder
 
 - id: "1"
-  title: "Bitcoin Strategy Session"
-  seller_name: "Satoshi Consulting"
-  description: "1-hour consultation on Bitcoin adoption for individuals and businesses."
-  category: "services"
-  country: "US"
-  city: "Miami"
-  fiat_price: 500
-  payment_methods:
-    - bitcoin
-    - fiat_transfer
-  contact_url: "https://wa.me/1234567890"
-  publish_date: "2024-01-15"
-  images:
-    - "https://example.com/image1.jpg"
-
-- id: "2"
-  title: "Handcrafted Bitcoin Art"
-  seller_name: "CryptoArtisan"
-  description: "Beautiful handmade Bitcoin-themed artwork."
+  title: "Cello 4/4 Pearl River Jarang Dipakai"
+  seller_id: "ricky"
+  seller_name: "Ricky Bitcoinstitution"
+  description: "Hari Sabtu 20 Des 1pm bakal gue bawa ke meetup bitcoin bulanan di Nanobank Syariah Menteng."
   category: "physical_goods"
-  country: "GB"
-  city: "London"
-  fiat_price: 250
+  country: "ID"
+  city: "Jakarta"
+  fiat_price: 4000000
   payment_methods:
     - bitcoin
     - fiat_cash
+  contact_url: "https://wa.me/6289678601060"
+  publish_date: "2025-12-15"
+  images:
+    - "https://down-id.img.susercontent.com/file/id-11134207-23020-shdg7tkdibnv44@resize_w900_nl.webp"
+
+- id: "2"
+  title: "Minyak Kelapa Vico Bagoes 350ml"
+  seller_id: "annas"
+  seller_name: "Annas Ahmad"
+  description: "Saya leader komunitas Bekasi, kebetulan juga owner Vico Bagoes."
+  category: "food_beverages"
+  country: "ID"
+  city: "Jakarta"
+  fiat_price: 39000
+  payment_methods:
+    - bitcoin
     - fiat_transfer
-  contact_url: "https://cryptoartisan.com"
-  publish_date: "2024-02-20"
+  contact_url: "https://wa.me/6281299371851"
+  publish_date: "2025-12-15"
+  images:
+    - "https://vicobagoes.com/wp-content/uploads/2019/10/3vico-size.jpg"
+    - "https://vicobagoes.com/wp-content/uploads/2021/03/24444.jpg"
+    - "https://vicobagoes.com/wp-content/uploads/2022/01/Nursuciati.jpg"
+
+- id: "3"
+  title: "Sekolah Mengemudi Mobil di Tambora, Jakbar"
+  seller_id: "johanes"
+  seller_name: "Johanes Arifin Antusias"
+  description: "Selain bisnis ekspedisi & sekuritas, saya juga punya sekolah menyetir mobil."
+  category: "services"
+  country: "ID"
+  city: "Jakarta"
+  fiat_price: 500000
+  payment_methods:
+    - fiat_cash
+    - fiat_transfer
+  contact_url: "https://wa.me/628999876697"
+  publish_date: "2025-12-15"
+  images:
+    - "https://kursusmobilandalan.wordpress.com/wp-content/uploads/2016/06/img-20190105-wa0010.jpg?w=1132&h=883"

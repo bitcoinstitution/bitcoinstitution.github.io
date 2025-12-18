@@ -30,3 +30,9 @@
   bitcoin_allowed: true
   fiat_symbol: "S$"
   fiat_ticker: "SGD"
+
+- code: "ID"
+  name: "Indonesia"
+  bitcoin_allowed: false
+  fiat_symbol: "Rp "
+  fiat_ticker: "IDR"
